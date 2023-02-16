@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    font-family: Georgia;
+    background-image: url('background.jpg');
+}
+
+#flex-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#menu, #main {
+    background-color: aquamarine;
+    border: 1px solid;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 20px;
+}
+
+#menu {
+    order: 0;
+    height: 100%;
+    width: 300px;;
+}
+
+#main {
+    order: 1;
+    height: 100%;
+    width: 70%;
+}
+
